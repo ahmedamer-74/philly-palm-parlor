@@ -28,3 +28,8 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Storefront prototype
+- Product, company and order data live in typed mock modules under `src/data/`; cart/wishlist/last order live in the in-memory `StoreProvider` (`src/lib/store.tsx`) — the site is a front-end prototype handed off to a commerce platform, so no backend is wired.
+- All UI copy is bilingual inline via `t(en, ar)` / localized `{ en, ar }` values from `src/lib/i18n.tsx`; never hardcode single-language strings.
+- Pricing math (VAT, delivery tiers, promo) stays in `src/lib/pricing.ts` with tests, so totals stay identical across cart, checkout and confirmation.

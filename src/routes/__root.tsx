@@ -11,6 +11,12 @@ import {
 import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
+import { Toaster } from "@/components/ui/sonner";
+import { SiteHeader } from "@/components/site/SiteHeader";
+import { SiteFooter } from "@/components/site/SiteFooter";
+import { MiniCart, WhatsAppFab } from "@/components/site/commerce";
+import { I18nProvider } from "@/lib/i18n";
+import { StoreProvider } from "@/lib/store";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 
 function NotFoundComponent() {
@@ -81,14 +87,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Pheladelfia Agricultural — Palms, Trees & Landscaping UAE" },
+      { name: "description", content: "Premium palms, trees and shrubs grown in Abu Dhabi since 2004, plus landscaping and grounds maintenance across the UAE." },
+      { name: "author", content: "Pheladelfia Agricultural LLC" },
+      { property: "og:title", content: "Pheladelfia Agricultural — Palms, Trees & Landscaping UAE" },
+      { property: "og:description", content: "Premium palms, trees and shrubs grown in Abu Dhabi since 2004." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
@@ -96,6 +101,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         href: appCss,
       },
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap",
+      },
     ],
   }),
   shellComponent: RootShell,
@@ -123,8 +134,22 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
-      <Outlet />
+      <I18nProvider>
+        <StoreProvider>
+          <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:start-4 focus:top-4 focus:z-50 focus:rounded-full focus:bg-primary focus:px-4 focus:py-2 focus:text-primary-foreground">
+            Skip to content
+          </a>
+          <SiteHeader />
+          <main id="main" className="min-h-[60vh]">
+            {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
+            <Outlet />
+          </main>
+          <SiteFooter />
+          <MiniCart />
+          <WhatsAppFab />
+          <Toaster position="bottom-left" richColors closeButton />
+        </StoreProvider>
+      </I18nProvider>
     </QueryClientProvider>
   );
 }
