@@ -80,8 +80,8 @@ function Home() {
         <Container>
           <ul className="grid grid-cols-2 overflow-hidden rounded-2xl border bg-card shadow-card lg:grid-cols-4">
             {trust.map(({ icon: Icon, label, sub }) => (
-              <li key={label} className="flex items-center gap-4 border-b border-e p-5 last:border-e-0 sm:p-6 lg:border-b-0">
-                <span className="grid h-12 w-12 shrink-0 place-items-center rounded-full bg-secondary text-primary"><Icon className="h-5 w-5" aria-hidden /></span>
+              <li key={label} className="flex flex-col items-start gap-3 border-b border-e p-4 last:border-e-0 sm:flex-row sm:items-center sm:gap-4 sm:p-6 lg:border-b-0">
+                <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-secondary text-primary sm:h-12 sm:w-12"><Icon className="h-5 w-5" aria-hidden /></span>
                 <span className="min-w-0">
                   <span className="block font-display text-[0.95rem] font-semibold text-primary sm:text-base">{label}</span>
                   <span className="block text-xs text-muted-foreground">{sub}</span>
