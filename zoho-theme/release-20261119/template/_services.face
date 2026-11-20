@@ -1,0 +1,78 @@
+<!-- Page banner -->
+<section class="ph-page-banner">
+  <div class="ph-page-banner-media"><img src="{{ page.template_assets }}/images/landscaping-villa.jpg" alt="" aria-hidden="true"></div>
+  <div class="ph-wrap">
+    <nav aria-label="Breadcrumb" class="ph-crumbs">
+      <a href="/">Home</a><span class="ph-crumb-sep">/</span><span aria-current="page">Services</span>
+    </nav>
+    <h1>Our Services</h1>
+    <p class="ph-lead">Complete landscape solutions for developers, contractors, hotels and government entities.</p>
+    <span class="ph-rule"></span>
+  </div>
+</section>
+
+<section class="ph-section">
+  <div class="ph-wrap" style="display:flex; flex-direction:column; gap:5rem;">
+
+    <!-- Service 01 -->
+    <article class="ph-split" id="landscaping">
+      <div class="ph-gold-frame"><img src="{{ page.template_assets }}/images/landscaping-villa.jpg" alt="Landscaping design and installation" loading="lazy" style="width:100%; aspect-ratio:4/3; object-fit:cover; border-radius:1rem;"></div>
+      <div>
+        <span class="ph-eyebrow">Service 01</span>
+        <h2 class="ph-sec-title" style="margin-block-start:0.8rem;">Landscaping Design &amp; Installation</h2>
+        <p class="ph-copy" style="margin-block-start:1.2rem;">From concept to planting — villas, compounds and public spaces.</p>
+        <p class="ph-copy" style="margin-block-start:1rem;">Our design team turns plans into living landscapes: concept and planting design, softscape and hardscape installation, irrigation networks, lighting and large-specimen palm transplanting. We deliver for developers, contractors, hotels and government entities.</p>
+        <ul class="ph-check-list">
+          <li>Concept &amp; planting design</li>
+          <li>Irrigation &amp; lighting</li>
+          <li>Specimen palm transplanting</li>
+        </ul>
+        <div class="ph-actions-row">
+          <a class="ph-btn" href="/contact">Contact us</a>
+          <a class="ph-btn ph-btn-outline" href="/projects">See our projects</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Service 02 -->
+    <article class="ph-split ph-split-reverse" id="maintenance">
+      <div class="ph-gold-frame"><img src="{{ page.template_assets }}/images/grounds-maintenance.jpg" alt="Grounds maintenance" loading="lazy" style="width:100%; aspect-ratio:4/3; object-fit:cover; border-radius:1rem;"></div>
+      <div>
+        <span class="ph-eyebrow">Service 02</span>
+        <h2 class="ph-sec-title" style="margin-block-start:0.8rem;">Grounds Maintenance</h2>
+        <p class="ph-copy" style="margin-block-start:1.2rem;">Scheduled care that keeps landscapes healthy all year.</p>
+        <p class="ph-copy" style="margin-block-start:1rem;">Trained crews provide pruning, palm trimming, fertilization, pest control, irrigation checks and lawn care on flexible annual contracts — with clear reporting for facility managers.</p>
+        <ul class="ph-check-list">
+          <li>Annual maintenance contracts</li>
+          <li>Palm trimming &amp; pest control</li>
+          <li>Irrigation audits</li>
+        </ul>
+        <div class="ph-actions-row">
+          <a class="ph-btn" href="/contact">Contact us</a>
+          <a class="ph-btn ph-btn-outline" href="/projects">See our projects</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Service 03 -->
+    <article class="ph-split" id="interior">
+      <div class="ph-gold-frame"><img src="{{ page.template_assets }}/images/indoor-plants.jpg" alt="Interior plant maintenance" loading="lazy" style="width:100%; aspect-ratio:4/3; object-fit:cover; border-radius:1rem;"></div>
+      <div>
+        <span class="ph-eyebrow">Service 03</span>
+        <h2 class="ph-sec-title" style="margin-block-start:0.8rem;">Interior Plant Maintenance</h2>
+        <p class="ph-copy" style="margin-block-start:1.2rem;">Living interiors for offices, hotels and malls.</p>
+        <p class="ph-copy" style="margin-block-start:1rem;">We design, supply and maintain indoor planting schemes — regular visits for watering, cleaning, feeding and plant rotation so your interiors always look their best.</p>
+        <ul class="ph-check-list">
+          <li>Plant &amp; planter supply</li>
+          <li>Weekly care visits</li>
+          <li>Seasonal rotation</li>
+        </ul>
+        <div class="ph-actions-row">
+          <a class="ph-btn" href="/contact">Contact us</a>
+          <a class="ph-btn ph-btn-outline" href="/projects">See our projects</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>

@@ -1,0 +1,1 @@
+<div class="ph-card-body">   <h3 class="ph-h3">{{ product.name }}</h3>   {% include '_store-product-image' %}   {% include '_store-product-pricing' %}   <p>{{ product.short_description }}</p>   <a class="ph-btn" href="{{ product.url }}">View details</a> </div> 

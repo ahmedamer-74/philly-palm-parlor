@@ -1,0 +1,1 @@
+<section class="ph-store">   <div class="ph-wrap">     <h2 class="ph-h2">{{ collection.name }}</h2>     <div class="ph-product-grid">       {% for product in collection.products %}       {% include 'store-product-list' %}       {% endfor %}     </div>   </div> </section> 

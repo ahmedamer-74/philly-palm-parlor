@@ -1,0 +1,70 @@
+<!-- Page banner -->
+<section class="ph-page-banner">
+  <div class="ph-wrap">
+    <nav aria-label="Breadcrumb" class="ph-crumbs">
+      <a href="/">Home</a><span class="ph-crumb-sep">/</span><span aria-current="page">Contact</span>
+    </nav>
+    <h1>Contact us</h1>
+    <p class="ph-lead">Questions about a plant, an order or a project? We're happy to help.</p>
+    <span class="ph-rule"></span>
+  </div>
+</section>
+
+<section class="ph-section">
+  <div class="ph-wrap">
+    <div class="ph-contact-grid">
+      <form action="mailto:nursery@pheladelfia.com" method="post" enctype="text/plain">
+        <div class="ph-form-card">
+          <h3>Send us a message</h3>
+          <div class="ph-form-grid">
+            <div class="ph-field"><label for="ph-name">Full name</label><input id="ph-name" name="Name" required></div>
+            <div class="ph-field"><label for="ph-phone">Phone</label><input id="ph-phone" name="Phone" type="tel" dir="ltr"></div>
+            <div class="ph-field"><label for="ph-email">Email</label><input id="ph-email" name="Email" type="email" required></div>
+            <div class="ph-field">
+              <label for="ph-type">Subject</label>
+              <select id="ph-type" name="Subject">
+                <option>Plant enquiry</option>
+                <option>Existing order</option>
+                <option>Landscaping project</option>
+                <option>Maintenance contract</option>
+              </select>
+            </div>
+            <div class="ph-field ph-span-2"><label for="ph-message">Message</label><textarea id="ph-message" name="Message" rows="5" required></textarea></div>
+          </div>
+          <button class="ph-btn" type="submit">Send message</button>
+        </div>
+      </form>
+      <aside class="ph-contact-cards">
+        <div class="ph-contact-card">
+          <span class="ph-contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg></span>
+          <div><p class="ph-field-label">Call us</p><a href="tel:+97125551662" dir="ltr">+971 2 555 1662</a></div>
+        </div>
+        <div class="ph-contact-card">
+          <span class="ph-contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
+          <div><p class="ph-field-label">Email</p><a href="mailto:nursery@pheladelfia.com">nursery@pheladelfia.com</a></div>
+        </div>
+        <div class="ph-contact-card">
+          <span class="ph-contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></span>
+          <div><p class="ph-field-label">Opening hours</p><p>Sat–Thu 8am–6pm · Friday closed</p></div>
+        </div>
+        <div class="ph-contact-card">
+          <span class="ph-contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-6.1-7-11a7 7 0 1 1 14 0c0 4.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+          <div><p class="ph-field-label">Locations</p><p>Nursery: Al Wathba, Abu Dhabi<br>Branch: Al Quoz, Dubai</p></div>
+        </div>
+        <a class="ph-btn" href="https://wa.me/97125551662" target="_blank" rel="noopener" style="width:100%; background:var(--wa);">Chat on WhatsApp</a>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="ph-section" style="padding-block-start:0;">
+  <div class="ph-wrap">
+    <div class="ph-map-block">
+      <div>
+        <span class="ph-map-pin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.1-7-11a7 7 0 1 1 14 0c0 4.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+        <p style="margin-block-start:1rem; font-family:var(--font-display); font-size:1.3rem; color:var(--forest);">Nursery: Al Wathba, Abu Dhabi</p>
+        <p class="ph-copy" style="font-size:0.9rem;">Interactive map will appear here</p>
+      </div>
+    </div>
+  </div>
+</section>

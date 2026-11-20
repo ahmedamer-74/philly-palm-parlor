@@ -1,0 +1,56 @@
+<!-- Page banner -->
+<section class="ph-page-banner">
+  <div class="ph-page-banner-media"><img src="{{ page.template_assets }}/images/project-boulevard.jpg" alt="" aria-hidden="true"></div>
+  <div class="ph-wrap">
+    <nav aria-label="Breadcrumb" class="ph-crumbs">
+      <a href="/">Home</a><span class="ph-crumb-sep">/</span><span aria-current="page">Projects</span>
+    </nav>
+    <h1>Projects &amp; Gallery</h1>
+    <p class="ph-lead">A selection of landscapes we have supplied, built and maintained.</p>
+    <span class="ph-rule"></span>
+  </div>
+</section>
+
+<section class="ph-section">
+  <div class="ph-wrap">
+    <div class="ph-project-masonry">
+      <figure class="ph-project-item">
+        <img src="{{ page.template_assets }}/images/project-boulevard.jpg" alt="Corniche Boulevard planting" loading="lazy" style="aspect-ratio:3/4; object-fit:cover;">
+        <figcaption><span class="ph-project-tag">Public realm</span><h3>Corniche Boulevard Planting</h3><p>Municipal client · Abu Dhabi</p></figcaption>
+      </figure>
+      <figure class="ph-project-item">
+        <img src="{{ page.template_assets }}/images/project-hotel.jpg" alt="Heritage resort courtyards" loading="lazy" style="aspect-ratio:4/3; object-fit:cover;">
+        <figcaption><span class="ph-project-tag">Hospitality</span><h3>Heritage Resort Courtyards</h3><p>5-star hotel · Dubai</p></figcaption>
+      </figure>
+      <figure class="ph-project-item">
+        <img src="{{ page.template_assets }}/images/landscaping-villa.jpg" alt="Private villa garden" loading="lazy" style="aspect-ratio:4/3; object-fit:cover;">
+        <figcaption><span class="ph-project-tag">Residential</span><h3>Private Villa Garden</h3><p>Residential · Emirates Hills</p></figcaption>
+      </figure>
+      <figure class="ph-project-item">
+        <img src="{{ page.template_assets }}/images/palm-nursery-rows.jpg" alt="Washingtonia palm supply" loading="lazy" style="aspect-ratio:3/4; object-fit:cover;">
+        <figcaption><span class="ph-project-tag">Supply</span><h3>Washingtonia Supply — 1,200 palms</h3><p>Master developer · Yas Island</p></figcaption>
+      </figure>
+      <figure class="ph-project-item">
+        <img src="{{ page.template_assets }}/images/indoor-plants.jpg" alt="Corporate HQ interiors" loading="lazy" style="aspect-ratio:4/3; object-fit:cover;">
+        <figcaption><span class="ph-project-tag">Interior</span><h3>Corporate HQ Interiors</h3><p>Office tower · ADGM</p></figcaption>
+      </figure>
+      <figure class="ph-project-item">
+        <img src="{{ page.template_assets }}/images/grounds-maintenance.jpg" alt="City park maintenance" loading="lazy" style="aspect-ratio:4/3; object-fit:cover;">
+        <figcaption><span class="ph-project-tag">Maintenance</span><h3>City Park Maintenance</h3><p>Annual contract · Abu Dhabi</p></figcaption>
+      </figure>
+      <figure class="ph-project-item">
+        <img src="{{ page.template_assets }}/images/date-palm.jpg" alt="Date palm avenue" loading="lazy" style="aspect-ratio:3/4; object-fit:cover;">
+        <figcaption><span class="ph-project-tag">Public realm</span><h3>Date Palm Avenue</h3><p>Mosque grounds · Al Ain</p></figcaption>
+      </figure>
+      <figure class="ph-project-item">
+        <img src="{{ page.template_assets }}/images/ghaf-tree.jpg" alt="Native Ghaf grove" loading="lazy" style="aspect-ratio:4/3; object-fit:cover;">
+        <figcaption><span class="ph-project-tag">Sustainability</span><h3>Native Ghaf Grove</h3><p>Sustainability park · Sharjah</p></figcaption>
+      </figure>
+      <figure class="ph-project-item">
+        <img src="{{ page.template_assets }}/images/chamaerops-humilis.jpg" alt="Mediterranean terrace" loading="lazy" style="aspect-ratio:4/3; object-fit:cover;">
+        <figcaption><span class="ph-project-tag">Residential</span><h3>Mediterranean Terrace</h3><p>Penthouse · Saadiyat</p></figcaption>
+      </figure>
+    </div>
+    <div class="ph-center ph-mt-12"><a class="ph-btn ph-btn-gold" href="/all-collections">Shop the plants <span aria-hidden="true">→</span></a></div>
+  </div>
+</section>

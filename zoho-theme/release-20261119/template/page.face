@@ -1,0 +1,42 @@
+{% extends "_theme" %}
+{% block content %}
+{% assign ph_page_url = page.url | lower %}
+{% assign ph_page_title = page.title | lower %}
+<main data-ph-page-body>
+{% if page.is_home_page || ph_page_url == "/" || ph_page_url == "home" || ph_page_url == "/home" || ph_page_url == "/home/" || ph_page_url == "/index" || ph_page_url == "/index.html" %}
+  {% include "_homepage" %}
+{% elif ph_page_url == "/about" || ph_page_url == "/about/" || ph_page_url == "about" || ph_page_title == "about" || ph_page_title == "about us" || ph_page_title == "من نحن" %}
+  {% include "_about" %}
+{% elif ph_page_url == "/services" || ph_page_url == "/services/" || ph_page_url == "services" || ph_page_title == "services" || ph_page_title == "خدماتنا" %}
+  {% include "_services" %}
+{% elif ph_page_url == "/nursery" || ph_page_url == "/nursery/" || ph_page_url == "nursery" || ph_page_title == "nursery" || ph_page_title == "المشتل" %}
+  {% include "_nursery" %}
+{% elif ph_page_url == "/all-collections" || ph_page_url == "/all-collections/" || ph_page_url == "/collections" || ph_page_url == "/collections/" || ph_page_title == "collections" || ph_page_title == "المجموعات" %}
+  {% include "_collections" %}
+{% elif ph_page_url == "/capabilities" || ph_page_url == "/capabilities/" || ph_page_title == "capabilities" %}
+  {% include "_capabilities" %}
+{% elif ph_page_url == "/sustainability" || ph_page_url == "/sustainability/" || ph_page_title == "sustainability" || ph_page_title == "الاستدامة" %}
+  {% include "_sustainability" %}
+{% elif ph_page_url == "/projects" || ph_page_url == "/projects/" || ph_page_title == "projects" || ph_page_title == "المشاريع" %}
+  {% include "_projects" %}
+{% elif ph_page_url == "/contact" || ph_page_url == "/contact/" || ph_page_url == "contact" || ph_page_title == "contact" || ph_page_title == "contact us" || ph_page_title == "تواصل معنا" %}
+  {% include "_contact" %}
+{% else %}
+  <section class="ph-page-banner"><div class="ph-wrap"><h1>{{ page.title }}</h1><span class="ph-rule"></span></div></section>
+  <section class="ph-store"><div class="ph-wrap">{{ page.content }}</div></section>
+{% endif %}
+</main>
+{% comment %} Ordinary pages only; product/cart/checkout retain their native contexts. {% endcomment %}
+<div hidden data-ph-route-fallbacks>
+  <template data-ph-route="home">{% include "_homepage" %}</template>
+  <template data-ph-route="about">{% include "_about" %}</template>
+  <template data-ph-route="services">{% include "_services" %}</template>
+  <template data-ph-route="nursery">{% include "_nursery" %}</template>
+  <template data-ph-route="collections">{% include "_collections" %}</template>
+  <template data-ph-route="all-collections">{% include "_collections" %}</template>
+  <template data-ph-route="capabilities">{% include "_capabilities" %}</template>
+  <template data-ph-route="sustainability">{% include "_sustainability" %}</template>
+  <template data-ph-route="projects">{% include "_projects" %}</template>
+  <template data-ph-route="contact">{% include "_contact" %}</template>
+</div>
+{% endblock %}

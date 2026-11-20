@@ -1,0 +1,254 @@
+<!-- ===== Hero ===== -->
+<section class="ph-hero" id="top">
+  <div class="ph-hero-media"><img src="{{ page.template_assets }}/images/palm-nursery-rows.jpg" alt="Rows of mature Washingtonia palms at the Pheladelfia nursery in Abu Dhabi" fetchpriority="high"></div>
+  <div class="ph-hero-overlay" aria-hidden="true"></div>
+  <div class="ph-wrap">
+    <div class="ph-hero-copy">
+      <span class="ph-eyebrow ph-anim ph-anim-1">Abu Dhabi nursery · Est. 2004</span>
+      <h1 class="ph-hero-title ph-anim ph-anim-2">Premium Palms &amp; Trees, <em class="ph-text-gradient-gold">Grown in the UAE</em></h1>
+      <p class="ph-hero-lead ph-anim ph-anim-3">Specimen palms, native trees and flowering shrubs — acclimatized in our Abu Dhabi nursery and delivered ready to plant across the Emirates.</p>
+      <div class="ph-hero-actions ph-anim ph-anim-4">
+        <a class="ph-btn ph-btn-gold" href="/all-collections">Shop Plants <span aria-hidden="true">→</span></a>
+        <a class="ph-btn ph-btn-ghost" href="/categories/palm_trees/1149036000001419436">Browse Palms</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Trust bar ===== -->
+<section class="ph-trustbar">
+  <div class="ph-wrap">
+    <ul class="ph-trust-grid">
+      <li class="ph-trust-item">
+        <span class="ph-trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></span>
+        <span><span class="ph-trust-label">Since 2004</span><span class="ph-trust-sub">Two decades of growing</span></span>
+      </li>
+      <li class="ph-trust-item">
+        <span class="ph-trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/></svg></span>
+        <span><span class="ph-trust-label">UAE-adapted plants</span><span class="ph-trust-sub">Acclimatized in Abu Dhabi</span></span>
+      </li>
+      <li class="ph-trust-item">
+        <span class="ph-trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 7h11v8H3z"/><path d="M14 10h4l3 3v2h-7z"/><circle cx="7" cy="17" r="1.6"/><circle cx="17" cy="17" r="1.6"/></svg></span>
+        <span><span class="ph-trust-label">Delivery across the UAE</span><span class="ph-trust-sub">All seven Emirates</span></span>
+      </li>
+      <li class="ph-trust-item">
+        <span class="ph-trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3 4 7v5c0 5 3.5 8 8 9 4.5-1 8-4 8-9V7z"/></svg></span>
+        <span><span class="ph-trust-label">Landscaping services</span><span class="ph-trust-sub">Design to maintenance</span></span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ===== Categories ===== -->
+<section class="ph-section">
+  <div class="ph-wrap">
+    <div class="ph-sec-head ph-sec-head-center">
+      <span class="ph-eyebrow">Shop by category</span>
+      <h2 class="ph-sec-title">Everything for a thriving landscape</h2>
+      <p class="ph-sec-sub">Browse our nursery by plant type — every item grown or selected for the UAE climate.</p>
+    </div>
+    <div class="ph-cat-grid">
+      <a class="ph-cat-card" href="/categories/palm_trees/1149036000001419436">
+        <img src="{{ page.template_assets }}/images/palm-grove-fan.jpg" alt="Fan palms at the Pheladelfia nursery" loading="lazy">
+        <span class="ph-cat-body">
+          <span class="ph-cat-blurb">Fan, date &amp; specimen palms</span>
+          <span class="ph-cat-name">Palms <span class="ph-cat-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+        </span>
+      </a>
+      <a class="ph-cat-card" href="/categories/trees/1149036000001419439">
+        <img src="{{ page.template_assets }}/images/ghaf-tree.jpg" alt="Native Ghaf tree" loading="lazy">
+        <span class="ph-cat-body">
+          <span class="ph-cat-blurb">Shade &amp; native trees</span>
+          <span class="ph-cat-name">Trees <span class="ph-cat-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+        </span>
+      </a>
+      <a class="ph-cat-card" href="/categories/large_rare_ancient_trees/1149036000001419442">
+        <img src="{{ page.template_assets }}/images/phoenix-canariensis.jpg" alt="Specimen palm tree" loading="lazy">
+        <span class="ph-cat-body">
+          <span class="ph-cat-blurb">Heritage &amp; monumental specimens</span>
+          <span class="ph-cat-name">Rare &amp; Ancient Trees <span class="ph-cat-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+        </span>
+      </a>
+      <a class="ph-cat-card" href="/categories/shrubs_ground_cover_plants/1149036000001419454">
+        <img src="{{ page.template_assets }}/images/bougainvillea.jpg" alt="Flowering bougainvillea shrub" loading="lazy">
+        <span class="ph-cat-body">
+          <span class="ph-cat-blurb">Flowering shrubs &amp; ground covers</span>
+          <span class="ph-cat-name">Shrubs &amp; Ground Cover <span class="ph-cat-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+        </span>
+      </a>
+      <a class="ph-cat-card" href="/categories/indoor_ornamental_plants/1149036000001419448">
+        <img src="{{ page.template_assets }}/images/indoor-plants.jpg" alt="Indoor ornamental plants" loading="lazy">
+        <span class="ph-cat-body">
+          <span class="ph-cat-blurb">For homes, offices &amp; hotels</span>
+          <span class="ph-cat-name">Indoor Plants <span class="ph-cat-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+        </span>
+      </a>
+      <a class="ph-cat-card" href="/categories/fertilizers_soil_amendments/1149036000001419466">
+        <img src="{{ page.template_assets }}/images/planters.jpg" alt="Plant pots and garden supplies" loading="lazy">
+        <span class="ph-cat-body">
+          <span class="ph-cat-blurb">Planters, soil &amp; care</span>
+          <span class="ph-cat-name">Pots &amp; Supplies <span class="ph-cat-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+        </span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Catalog cards are rendered by the category FACE layout and loaded progressively. -->
+<section class="ph-section ph-section-sand" data-ph-best-section>
+  <div class="ph-wrap">
+    <div class="ph-sec-head ph-sec-head-row">
+      <div class="ph-sec-head-text">
+        <span class="ph-eyebrow">From our nursery</span>
+        <h2 class="ph-sec-title">Explore our plants</h2>
+      </div>
+      <div class="ph-carousel-nav">
+        <button class="ph-carousel-btn" type="button" data-ph-carousel-prev aria-label="Previous"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg></button>
+        <button class="ph-carousel-btn" type="button" data-ph-carousel-next aria-label="Next"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg></button>
+      </div>
+    </div>
+    <div class="ph-carousel" data-ph-best-sellers aria-busy="true"></div>
+    <p class="ph-copy" data-ph-catalog-status><span data-ph-catalog-loading>Loading plants…</span> <a href="/all-collections">Browse collections</a></p>
+  </div>
+</section>
+
+<!-- ===== Services ===== -->
+<section class="ph-section">
+  <div class="ph-wrap">
+    <div class="ph-sec-head ph-sec-head-center">
+      <span class="ph-eyebrow">Our services</span>
+      <h2 class="ph-sec-title">Beyond the nursery</h2>
+      <p class="ph-sec-sub">We design, build and care for landscapes for commercial and public clients across the UAE.</p>
+    </div>
+    <div class="ph-cards">
+      <article class="ph-service-card">
+        <div class="ph-card-photo"><img src="{{ page.template_assets }}/images/landscaping-villa.jpg" alt="Landscaped villa garden" loading="lazy"></div>
+        <div class="ph-card-body">
+          <h3>Landscaping Design &amp; Installation</h3>
+          <p class="ph-copy">From concept to planting — villas, compounds and public spaces.</p>
+          <a class="ph-more" href="/services#landscaping">Learn more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+      <article class="ph-service-card">
+        <div class="ph-card-photo"><img src="{{ page.template_assets }}/images/grounds-maintenance.jpg" alt="Grounds maintenance crew" loading="lazy"></div>
+        <div class="ph-card-body">
+          <h3>Grounds Maintenance</h3>
+          <p class="ph-copy">Scheduled care that keeps landscapes healthy all year.</p>
+          <a class="ph-more" href="/services#maintenance">Learn more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+      <article class="ph-service-card">
+        <div class="ph-card-photo"><img src="{{ page.template_assets }}/images/indoor-plants.jpg" alt="Interior plant maintenance" loading="lazy"></div>
+        <div class="ph-card-body">
+          <h3>Interior Plant Maintenance</h3>
+          <p class="ph-copy">Living interiors for offices, hotels and malls.</p>
+          <a class="ph-more" href="/services#interior">Learn more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Why us ===== -->
+<section class="ph-why ph-section">
+  <div class="ph-wrap">
+    <div class="ph-why-grid">
+      <div class="ph-gold-frame">
+        <img src="{{ page.template_assets }}/images/palm-single-specimen.jpg" alt="A specimen fan palm at our nursery" loading="lazy">
+      </div>
+      <div>
+        <span class="ph-eyebrow">Why Pheladelfia</span>
+        <h2 class="ph-why-title">Rooted in the Emirates for over 20 years</h2>
+        <div class="ph-why-items">
+          <div class="ph-why-item">
+            <span class="ph-why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21c-4-3-7-6-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 4-3 7-7 10z"/></svg></span>
+            <h3>Locally acclimatized</h3>
+            <p>Every plant is hardened in our Abu Dhabi nursery to thrive in UAE heat, wind and soil.</p>
+          </div>
+          <div class="ph-why-item">
+            <span class="ph-why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 19c0-8 5-13 14-14-1 9-6 14-14 14z"/><path d="M5 19c3-5 7-8 11-9"/></svg></span>
+            <h3>Wide variety</h3>
+            <p>From rare specimen palms to native Ghaf and ground covers — hundreds of species in stock.</p>
+          </div>
+          <div class="ph-why-item">
+            <span class="ph-why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.5 2.7-6 6-6s6 2.5 6 6"/><circle cx="17" cy="9" r="2.4"/><path d="M15.5 14.5c3 .3 5.5 2.6 5.5 5.5"/></svg></span>
+            <h3>Experienced team</h3>
+            <p>Horticulturists and landscape engineers with 20+ years of regional experience.</p>
+          </div>
+          <div class="ph-why-item">
+            <span class="ph-why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 21V9l8-5 8 5v12"/><path d="M9 21v-6h6v6"/></svg></span>
+            <h3>Large-scale capacity</h3>
+            <p>Thousands of mature palms ready to supply government and developer projects.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Promo banner ===== -->
+<section class="ph-section">
+  <div class="ph-wrap">
+    <div class="ph-promo">
+      <div class="ph-promo-media"><img src="{{ page.template_assets }}/images/project-boulevard.jpg" alt="" loading="lazy"></div>
+      <div class="ph-promo-inner">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#e4c86f" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="9" r="5"/><path d="M8.5 13.5L7 21l5-2.5L17 21l-1.5-7.5"/></svg>
+        <h2 class="ph-promo-title">10% off your first order</h2>
+        <p class="ph-promo-text">Use code GREEN10 at checkout for 10% off your first order.</p>
+        <a class="ph-btn ph-btn-gold" href="/all-collections">Shop now <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Testimonials ===== -->
+<section class="ph-section">
+  <div class="ph-wrap">
+    <div class="ph-sec-head ph-sec-head-center">
+      <span class="ph-eyebrow">Testimonials</span>
+      <h2 class="ph-sec-title">Trusted by developers, hotels &amp; homeowners</h2>
+    </div>
+    <div class="ph-quotes">
+      <figure class="ph-quote">
+        <svg class="ph-quote-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M10 8c-3 1-5 3.5-5 7v1h5v-6H7.5C8 9 9 8.5 10 8.2zm9 0c-3 1-5 3.5-5 7v1h5v-6h-2.5c.5-1 1.5-1.5 2.5-1.8z"/></svg>
+        <blockquote>“Pheladelfia supplied over a thousand Washingtonia palms for our community on time and in excellent condition. Their team made a complex logistics job look easy.”</blockquote>
+        <figcaption>
+          <span class="ph-quote-name">Khalid Al Mansoori</span>
+          <span class="ph-quote-role">Project Director, Real Estate Developer</span>
+        </figcaption>
+      </figure>
+      <figure class="ph-quote">
+        <svg class="ph-quote-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M10 8c-3 1-5 3.5-5 7v1h5v-6H7.5C8 9 9 8.5 10 8.2zm9 0c-3 1-5 3.5-5 7v1h5v-6h-2.5c.5-1 1.5-1.5 2.5-1.8z"/></svg>
+        <blockquote>“We've used their grounds maintenance for three years. The gardens have never looked better, and reporting is always clear.”</blockquote>
+        <figcaption>
+          <span class="ph-quote-name">Sarah Thompson</span>
+          <span class="ph-quote-role">Facilities Manager, Hotel Group</span>
+        </figcaption>
+      </figure>
+      <figure class="ph-quote">
+        <svg class="ph-quote-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M10 8c-3 1-5 3.5-5 7v1h5v-6H7.5C8 9 9 8.5 10 8.2zm9 0c-3 1-5 3.5-5 7v1h5v-6h-2.5c.5-1 1.5-1.5 2.5-1.8z"/></svg>
+        <blockquote>“Beautiful, healthy plants that actually survive our summer. The advice on choosing the right palms was invaluable.”</blockquote>
+        <figcaption>
+          <span class="ph-quote-name">Mariam Al Hosani</span>
+          <span class="ph-quote-role">Villa owner, Abu Dhabi</span>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Newsletter ===== -->
+<section class="ph-newsletter">
+  <div class="ph-wrap">
+    <div>
+      <span class="ph-eyebrow">Newsletter</span>
+      <h2 class="ph-sec-title" style="font-size:1.9rem;">Seasonal planting tips &amp; offers</h2>
+      <p class="ph-sec-sub" style="margin-block-start:0.5rem;">One calm email a month. No spam.</p>
+    </div>
+    <form action="mailto:nursery@pheladelfia.com" method="post" enctype="text/plain">
+      <label class="ph-sr-only" for="nl-email">Email address</label>
+      <input id="nl-email" type="email" name="Email" required placeholder="Your email address">
+      <button class="ph-btn" type="submit">Subscribe</button>
+    </form>
+  </div>
+</section>

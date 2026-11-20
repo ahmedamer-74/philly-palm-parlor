@@ -1,0 +1,48 @@
+<!-- Page banner -->
+<section class="ph-page-banner">
+  <div class="ph-page-banner-media"><img src="{{ page.template_assets }}/images/palm-grove-fan.jpg" alt="" aria-hidden="true"></div>
+  <div class="ph-wrap">
+    <nav aria-label="Breadcrumb" class="ph-crumbs">
+      <a href="/">Home</a><span class="ph-crumb-sep">/</span><span aria-current="page">Collections</span>
+    </nav>
+    <h1>All collections</h1>
+    <p class="ph-lead">Every category in the Pheladelfia online store, from palms and specimen trees to indoor plants, garden supply and art. Open a collection to see its species and sized specimens.</p>
+    <span class="ph-rule"></span>
+  </div>
+</section>
+
+<section class="ph-section">
+  <div class="ph-wrap">
+    <nav class="ph-coll-index" aria-label="Categories">
+      <div>
+        <h2>Outdoor Plants</h2>
+        <a href="/categories/palm_trees/1149036000001419436">Palm Trees</a>
+        <a class="ph-coll-sub" href="/categories/washingtonia-robusta-واشنطونيا-روبوستا/1149036000001419475">Washingtonia robusta</a>
+        <a href="/categories/trees/1149036000001419439">Trees</a>
+        <a href="/categories/large_rare_ancient_trees/1149036000001419442">Rare &amp; Ancient Trees</a>
+        <a href="/categories/cacti_succulents/1149036000001419445">Cacti &amp; Succulents</a>
+      </div>
+      <div>
+        <h2>Outdoor Plants</h2>
+        <a href="/categories/shrubs_ground_cover_plants/1149036000001419454">Shrubs &amp; Ground Cover</a>
+        <a href="/categories/climbers/1149036000001419457">Climbers</a>
+        <a href="/categories/art_section_sculptures/1149036000001419469">Art &amp; Sculptures</a>
+      </div>
+      <div>
+        <h2>Indoor &amp; Decor</h2>
+        <a href="/categories/indoor_ornamental_plants/1149036000001419448">Indoor Ornamental Plants</a>
+        <a href="/categories/fresh_flowers_floral_bouquets/1149036000001419460">Fresh Flowers &amp; Bouquets</a>
+        <a href="/categories/artificial_plants/1149036000001419451">Artificial Plants</a>
+      </div>
+      <div>
+        <h2>Garden &amp; Nursery Supply</h2>
+        <a href="/categories/fertilizers_soil_amendments/1149036000001419466">Fertilizers &amp; Soil Amendments</a>
+        <a href="/categories/seeds_planting_stock/1149036000001419463">Seeds &amp; Planting Stock</a>
+        <a href="/categories/tools_equipment_direct_purchases/1149036000001419472">Tools &amp; Equipment</a>
+        <a class="ph-coll-sub" href="/categories/direct-use-purchases-مشتريات-للاستخدام-المباشر/1149036000001419478">Direct Use Purchases</a>
+        <a class="ph-coll-sub" href="/categories/small-tools-consumables-أدوات-ومواد-استهلاكية/1149036000001419481">Small Tools &amp; Consumables</a>
+      </div>
+    </nav>
+    {% include "_store-categories" %}
+  </div>
+</section>

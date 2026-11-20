@@ -1,0 +1,1 @@
+{% if currencies %} <div class="ph-currencies"> {% for currency_item in currencies %}   <span>{{ currency_item.code }}</span> {% endfor %} </div> {% endif %} 

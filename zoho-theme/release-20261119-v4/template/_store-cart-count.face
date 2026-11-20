@@ -1,0 +1,1 @@
+<span class="ph-cart-count" data-ph-cart-count {% if cart.count %}{% else %}hidden{% endif %}>{% if cart.count %}{{ cart.count }}{% endif %}</span>

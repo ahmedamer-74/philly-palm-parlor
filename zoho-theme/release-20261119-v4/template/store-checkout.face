@@ -1,0 +1,1 @@
+{% extends '_theme' %} {% block content %} <section class="ph-store">   <div class="ph-wrap">     <h1 class="ph-h2">Checkout</h1>     <div class="ph-checkout-box">{{ checkout.form }}</div>   </div> </section> {% endblock %} 

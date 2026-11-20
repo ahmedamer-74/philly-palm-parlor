@@ -1,0 +1,76 @@
+<!-- Page banner -->
+<section class="ph-page-banner">
+  <div class="ph-page-banner-media"><img src="{{ page.template_assets }}/images/palm-grove-fan.jpg" alt="" aria-hidden="true"></div>
+  <div class="ph-wrap">
+    <nav aria-label="Breadcrumb" class="ph-crumbs">
+      <a href="/">Home</a><span class="ph-crumb-sep">/</span><span aria-current="page">About</span>
+    </nav>
+    <h1>Our story</h1>
+    <p class="ph-lead">Two decades of growing the green heart of the Emirates.</p>
+    <span class="ph-rule"></span>
+  </div>
+</section>
+
+<!-- Story -->
+<section class="ph-section">
+  <div class="ph-wrap">
+    <div class="ph-split">
+      <div>
+        <span class="ph-eyebrow">Since 2004</span>
+        <h2 class="ph-sec-title" style="margin-block-start:0.8rem;">From a single nursery to a UAE landscaping partner</h2>
+        <div class="ph-copy" style="margin-block-start:1.5rem; display:flex; flex-direction:column; gap:1rem;">
+          <p>Pheladelfia Agricultural LLC began in 2004 with a simple belief: plants for the UAE should be grown in the UAE. Our Abu Dhabi nursery acclimatizes every palm, tree and shrub to local heat, soil and water so it thrives from the day it is planted.</p>
+          <p>Today we supply developers, contractors, hotels and government entities, and our landscaping and maintenance teams care for gardens, parks and interiors across all seven Emirates — supported by our branch in Dubai.</p>
+        </div>
+        <div class="ph-two-col" style="margin-block-start:2rem;">
+          <div class="ph-info-card" style="display:flex; gap:0.8rem; align-items:flex-start;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c9a227" stroke-width="2" style="flex-shrink:0; margin-block-start:0.2rem;"><path d="M12 21s-7-6.1-7-11a7 7 0 1 1 14 0c0 4.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            <span class="ph-copy" style="font-size:0.9rem;">Nursery: Al Wathba, Abu Dhabi</span>
+          </div>
+          <div class="ph-info-card" style="display:flex; gap:0.8rem; align-items:flex-start;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c9a227" stroke-width="2" style="flex-shrink:0; margin-block-start:0.2rem;"><path d="M12 21s-7-6.1-7-11a7 7 0 1 1 14 0c0 4.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            <span class="ph-copy" style="font-size:0.9rem;">Branch: Al Quoz, Dubai</span>
+          </div>
+        </div>
+      </div>
+      <div class="ph-gold-frame">
+        <img src="{{ page.template_assets }}/images/palm-single-specimen.jpg" alt="Specimen palm at the Pheladelfia nursery" style="width:100%; aspect-ratio:4/5; object-fit:cover; border-radius:1rem;">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Stats -->
+<section class="ph-stats">
+  <div class="ph-wrap">
+    <div class="ph-stats-grid">
+      <div class="ph-stat"><div class="ph-stat-num">2004</div><div class="ph-stat-label">Founded in Abu Dhabi</div></div>
+      <div class="ph-stat"><div class="ph-stat-num">50,000+</div><div class="ph-stat-label">Plants in the nursery</div></div>
+      <div class="ph-stat"><div class="ph-stat-num">350+</div><div class="ph-stat-label">Projects delivered</div></div>
+      <div class="ph-stat"><div class="ph-stat-num">7</div><div class="ph-stat-label">Emirates served</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- Mission & vision -->
+<section class="ph-section">
+  <div class="ph-wrap">
+    <div class="ph-sec-head ph-sec-head-center">
+      <span class="ph-eyebrow">What drives us</span>
+      <h2 class="ph-sec-title">Mission &amp; vision</h2>
+    </div>
+    <div class="ph-two-col">
+      <div class="ph-info-card">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#c9a227" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 1v4M12 19v4M1 12h4M19 12h4"/></svg>
+        <h3>Our mission</h3>
+        <p>To provide healthy, locally acclimatized plants and dependable landscaping services that make UAE communities greener, cooler and more beautiful.</p>
+      </div>
+      <div class="ph-info-card">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#c9a227" stroke-width="1.6"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg>
+        <h3>Our vision</h3>
+        <p>To be the most trusted name in UAE horticulture — championing native species and water-wise landscapes for a sustainable future.</p>
+      </div>
+    </div>
+    <div class="ph-center ph-mt-12"><a class="ph-btn" href="/contact">Visit our nursery</a></div>
+  </div>
+</section>

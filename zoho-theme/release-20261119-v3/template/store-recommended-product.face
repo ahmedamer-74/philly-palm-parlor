@@ -1,0 +1,1 @@
+<div class="ph-product-grid"> {% for product in recommended_products %} {% include 'store-product-list' %} {% endfor %} </div> 

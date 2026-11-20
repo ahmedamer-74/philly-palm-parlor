@@ -1,0 +1,1 @@
+<div class="ph-media-list" data-ph-product-images> {% for image in product.images %} <img src="{{ image.url }}/1600x1600" alt="{{ product.name }}" data-zs-image> {% endfor %} </div> 

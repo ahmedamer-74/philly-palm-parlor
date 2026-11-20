@@ -1,0 +1,1 @@
+{% extends "_theme" %} {% block content %} <section class="ph-store">   <div class="ph-wrap">     <h1 class="ph-h2">{{ blog_post.post_title }}</h1>     <div class="ph-copy">{{ blog_post.content }}</div>   </div> </section> {% endblock %} 

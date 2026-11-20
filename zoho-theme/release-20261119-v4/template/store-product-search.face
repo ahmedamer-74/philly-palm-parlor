@@ -1,0 +1,1 @@
+<section class="ph-search-results">   {% if no_products_message %}   <p class="ph-lead">{{ no_products_message }}</p>   <p><a class="ph-btn" href="/all-collections">Explore collections</a></p>   {% endif %}   <div class="ph-product-grid" data-ph-product-grid>     {% for product in search.products %}     {% include "store-product-list" %}     {% endfor %}   </div> </section>  

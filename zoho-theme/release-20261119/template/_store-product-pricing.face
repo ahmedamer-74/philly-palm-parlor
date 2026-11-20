@@ -1,0 +1,1 @@
+<div class="ph-price" data-zs-selling-price="{{ product.selling_price }}">   {% if product.on_sale && product.label_price %}<s>{{ currency.symbol }}{{ product.label_price }}</s> {% endif %}   {{ currency.symbol }}{{ product.selling_price }} </div> 
